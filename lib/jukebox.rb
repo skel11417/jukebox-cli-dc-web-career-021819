@@ -53,11 +53,12 @@ end
 
 def run
   loop do
+    puts "Please enter a command:"
     user_input = gets.chomp
     # if user_input == help
     
     case user_input
-      when
+      when "help"
     exit_jukebox
     break
   end
