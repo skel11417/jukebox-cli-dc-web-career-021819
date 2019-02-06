@@ -20,7 +20,6 @@ end
 
 def list(songs)
   songs.each_with_index {|val, index| puts "#{index + 1}. #{val}"
-  
 end
 
 def exit_jukebox
