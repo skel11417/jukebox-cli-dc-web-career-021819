@@ -22,7 +22,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp
   valid_song(user_input, songs)
-    "Playing"
+    "Playing #{song}"
 end
 
 def valid_song(input, songs)
