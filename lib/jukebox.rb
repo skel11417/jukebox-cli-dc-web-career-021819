@@ -49,7 +49,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-valid_song("3", songs)
+binding.pry
 # def run
 #   loop do
     
