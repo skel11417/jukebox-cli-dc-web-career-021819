@@ -59,7 +59,12 @@ def run
     
     case user_input
       when "help"
-    exit_jukebox
+        help
+      when "play"
+        play
+      when "exit"
+        exit_jukebox
+        break
     break
   end
 end
