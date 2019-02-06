@@ -53,6 +53,8 @@ end
 
 def run
   loop do
+    
+    exit_jukebox
     break
   end
 end
