@@ -18,7 +18,9 @@ def play
   
 end
 
-def 
+def exit_jukebox
+  
+end
 
 # def run
 #   loop do
