@@ -29,7 +29,7 @@ def list(songs)
 end
 
 def exit_jukebox
-  
+  break
 end
 
 # def run
