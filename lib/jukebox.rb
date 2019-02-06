@@ -53,6 +53,7 @@ end
 
 def run
   loop do
+    user_input = gets.chomp
     
     exit_jukebox
     break
