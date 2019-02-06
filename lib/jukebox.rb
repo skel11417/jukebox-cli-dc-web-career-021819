@@ -24,6 +24,10 @@ def play(songs)
   
 end
 
+def valid_song(songs)
+  
+end
+
 def list(songs)
   songs.each_with_index {|val, index| puts "#{index + 1}. #{val}"}
 end
