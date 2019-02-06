@@ -24,7 +24,7 @@ def play(songs)
   
 end
 
-def valid_song(songs)
+def valid_song(input, songs)
   
 end
 
