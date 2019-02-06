@@ -51,7 +51,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-# def run
-#   loop do
+def run
+  loop do
     
-# end
+end
