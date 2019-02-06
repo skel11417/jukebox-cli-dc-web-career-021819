@@ -33,7 +33,6 @@ end
 def valid_song(input, songs)
   # checks to see if the input is a song and returns the name
   # of the song. otherwise returns false
-  song = ""
   if (1..songs.length).to_a.include?(input.to_i)
     return songs[(input.to_i - 1)]
   elsif songs.include?(input)
