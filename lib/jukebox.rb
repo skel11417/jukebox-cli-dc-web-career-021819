@@ -26,7 +26,7 @@ def play(songs)
   if valid_song(user_input, songs)
     puts "Playing "
   else 
-    "Invalid input, please try again."
+    puts "Invalid input, please try again."
   end
 end
 
