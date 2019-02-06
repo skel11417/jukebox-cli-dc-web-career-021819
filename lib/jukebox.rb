@@ -54,7 +54,9 @@ end
 def run
   loop do
     user_input = gets.chomp
-    if user_input == help
+    # if user_input == help
+    
+    
     exit_jukebox
     break
   end
