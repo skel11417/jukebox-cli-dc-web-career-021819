@@ -35,7 +35,9 @@ def valid_song(input, songs)
   # of the song. otherwise returns false
   song = ""
   if (1..songs.length).to_a.include?(input.to_i)
-    song = songs[(input.to_i - 1)]
+    return songs[(input.to_i - 1)]
+  elsif songs.include?(input)
+    return  
   else
     return false
   end
