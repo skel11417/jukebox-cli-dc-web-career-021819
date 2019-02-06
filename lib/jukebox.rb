@@ -56,7 +56,8 @@ def run
     user_input = gets.chomp
     # if user_input == help
     
-    
+    case user_input
+      when
     exit_jukebox
     break
   end
