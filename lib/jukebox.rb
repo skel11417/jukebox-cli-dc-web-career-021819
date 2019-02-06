@@ -24,8 +24,6 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp
   song = valid_song(user_input, songs)
-  # binding.pry
-  # song ? puts "Playing #{song}" : puts "Invalid input, please try again"
 end
 
 def valid_song(input, songs)
