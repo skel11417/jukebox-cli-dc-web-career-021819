@@ -51,7 +51,6 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-binding.pry
 # def run
 #   loop do
     
