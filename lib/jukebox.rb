@@ -52,17 +52,17 @@ def exit_jukebox
 end
 
 def run
-loop do
-  puts "Please enter a command:"
-  user_input = gets.chomp
-  case user_input
-    when "help"
-      help
-    when "play"
-      play
-    when "exit"
-      exit_jukebox
-      break
-    end
+  loop do
+    puts "Please enter a command:"
+    user_input = gets.chomp
+    case user_input
+      when "help"
+        help
+      when "play"
+        play
+      when "exit"
+        exit_jukebox
+        break
+      end
   end
 end
