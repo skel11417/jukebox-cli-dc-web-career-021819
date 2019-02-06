@@ -36,7 +36,7 @@ def valid_song(input, songs)
   binding.pry
   song = ""
   if (1..songs.length).to_a.include?(input.to_i)
-    song = songs[ input.to_i - 1 ]
+    song = songs[(input.to_i - 1)]
   else
     return false
   end
