@@ -34,7 +34,7 @@ def valid_song(input, songs)
   # checks to see if the input is a song and returns the name
   # of the song. otherwise returns false
   binding.pry
-  if (1..songs.length).include?(input.to_i)
+  if (1..songs.length).to_a.include?(input.to_i)
     return true
   else
     return false
